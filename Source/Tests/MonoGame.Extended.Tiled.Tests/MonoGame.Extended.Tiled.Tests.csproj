@@ -60,10 +60,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\MonoGame.Extended.Tiled\MonoGame.Extended.Tiled.csproj">
-      <Project>{07B2ADE2-73E3-41C4-AEA1-D5566A5AB902}</Project>
-      <Name>MonoGame.Extended.Tiled</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MonoGame.Extended.Tests\MonoGame.Extended.Tests.csproj">
       <Project>{CEF2144F-7E98-45A5-BE08-E6DBC307A5C1}</Project>
       <Name>MonoGame.Extended.Tests</Name>

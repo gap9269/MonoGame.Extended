@@ -54,24 +54,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\MonoGame.Extended.Tiled\Tiled\TiledMapHelper.cs">
-      <Link>Tiled\TiledMapHelper.cs</Link>
-    </Compile>
-    <Compile Include="..\MonoGame.Extended.Tiled\Tiled\TiledMapLayerType.cs">
-      <Link>Tiled\TiledMapLayerType.cs</Link>
-    </Compile>
-    <Compile Include="..\MonoGame.Extended.Tiled\Tiled\TiledMapObjectType.cs">
-      <Link>Tiled\TiledMapObjectType.cs</Link>
-    </Compile>
-    <Compile Include="..\MonoGame.Extended.Tiled\Tiled\TiledMapTileFlipFlags.cs">
-      <Link>Tiled\TiledMapTileFlipFlags.cs</Link>
-    </Compile>
-    <Compile Include="Animations\AstridAnimatorAnimation.cs" />
-    <Compile Include="Animations\AstridAnimatorFile.cs" />
-    <Compile Include="Animations\AstridAnimatorImporter.cs" />
-    <Compile Include="Animations\AstridAnimatorProcessor.cs" />
-    <Compile Include="Animations\AstridAnimatorProcessorResult.cs" />
-    <Compile Include="Animations\AstridAnimatorWriter.cs" />
     <Compile Include="ContentImporterResult.cs" />
     <Compile Include="BitmapFonts\BitmapFontChar.cs" />
     <Compile Include="BitmapFonts\BitmapFontCommon.cs" />
@@ -97,33 +79,6 @@
     <Compile Include="TextureAtlases\TexturePackerRectangle.cs" />
     <Compile Include="TextureAtlases\TexturePackerSize.cs" />
     <Compile Include="TextureAtlases\TexturePackerWriter.cs" />
-    <Compile Include="Tiled\ContentWriterExtensions.cs" />
-    <Compile Include="Tiled\TiledMapContent.cs" />
-    <Compile Include="Tiled\TiledMapEllipseContent.cs" />
-    <Compile Include="Tiled\TiledMapImageContent.cs" />
-    <Compile Include="Tiled\TiledMapImageLayerContent.cs" />
-    <Compile Include="Tiled\TiledMapImporter.cs" />
-    <Compile Include="Tiled\TiledMapLayerAnimatedModelContent.cs" />
-    <Compile Include="Tiled\TiledMapLayerContent.cs" />
-    <Compile Include="Tiled\TiledMapLayerModelContent.cs" />
-    <Compile Include="Tiled\TiledMapObjectContent.cs" />
-    <Compile Include="Tiled\TiledMapObjectDrawOrderContent.cs" />
-    <Compile Include="Tiled\TiledMapObjectLayerContent.cs" />
-    <Compile Include="Tiled\TiledMapOrientationContent.cs" />
-    <Compile Include="Tiled\TiledMapPolygonContent.cs" />
-    <Compile Include="Tiled\TiledMapPolylineContent.cs" />
-    <Compile Include="Tiled\TiledMapProcessor.cs" />
-    <Compile Include="Tiled\TiledMapPropertyContent.cs" />
-    <Compile Include="Tiled\TiledMapTerrainContent.cs" />
-    <Compile Include="Tiled\TiledMapTile.cs" />
-    <Compile Include="Tiled\TiledMapTileDrawOrderContent.cs" />
-    <Compile Include="Tiled\TiledMapTileLayerContent.cs" />
-    <Compile Include="Tiled\TiledMapTileLayerDataContent.cs" />
-    <Compile Include="Tiled\TiledMapTileOffsetContent.cs" />
-    <Compile Include="Tiled\TiledMapTilesetContent.cs" />
-    <Compile Include="Tiled\TiledMapTilesetTileAnimationFrameContent.cs" />
-    <Compile Include="Tiled\TiledMapTilesetTileContent.cs" />
-    <Compile Include="Tiled\TiledMapWriter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

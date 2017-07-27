@@ -110,38 +110,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\MonoGame.Extended.Animations\MonoGame.Extended.Animations.csproj">
-      <Project>{587ce536-216f-41a1-b223-ae502c125b09}</Project>
-      <Name>MonoGame.Extended.Animations</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\MonoGame.Extended.Graphics\MonoGame.Extended.Graphics.csproj">
-      <Project>{9b3ab8a1-78aa-471a-afd0-b10b932115bc}</Project>
-      <Name>MonoGame.Extended.Graphics</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\MonoGame.Extended.Gui\MonoGame.Extended.Gui.csproj">
-      <Project>{8e425575-378a-4f83-88c9-f8bebad227c9}</Project>
-      <Name>MonoGame.Extended.Gui</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\MonoGame.Extended.Input\MonoGame.Extended.Input.csproj">
-      <Project>{49c87598-994c-49b5-bbb3-7ffc342635d3}</Project>
-      <Name>MonoGame.Extended.Input</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\MonoGame.Extended.Particles\MonoGame.Extended.Particles.csproj">
-      <Project>{6C8B9E29-D09B-4901-80FD-45AAA35882C6}</Project>
-      <Name>MonoGame.Extended.Particles</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\MonoGame.Extended.SceneGraphs\MonoGame.Extended.SceneGraphs.csproj">
-      <Project>{fe61c3d7-d96d-4aa4-9ef1-17e457bb2c7c}</Project>
-      <Name>MonoGame.Extended.SceneGraphs</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\MonoGame.Extended.Tiled\MonoGame.Extended.Tiled.csproj">
-      <Project>{07b2ade2-73e3-41c4-aea1-d5566a5ab902}</Project>
-      <Name>MonoGame.Extended.Tiled</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\MonoGame.Extended.Tweening\MonoGame.Extended.Tweening.csproj">
-      <Project>{1cf61f4f-a2ee-49bf-95d0-379e870de90e}</Project>
-      <Name>MonoGame.Extended.Tweening</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\MonoGame.Extended\MonoGame.Extended.csproj">
       <Project>{41724c52-3d50-45bb-81eb-3c8a247eafd1}</Project>
       <Name>MonoGame.Extended</Name>
